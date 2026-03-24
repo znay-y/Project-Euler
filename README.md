@@ -42,3 +42,29 @@ Steps to solving:
 *   Use a for loop to find sqare numbers from 1 to 520,000
 *   Check if square nunmber is even or odd
 *   Add to total and print
+
+### Problem Four
+
+Find the largest palindrome number for the product of 3 digit numbers
+
+* * *
+
+Steps to solving:
+
+*   Init 2 for loops to multiple every combination of numbers
+*   Check each one in another method returning boolean
+*   Other method converts to char array and checks for palindrome
+*   This is done by searching array index from beginning and end coming inwards
+```
+for (int i = 0; i < myArray.length; i++) {
+
+            if (myArray[i].equals(myArray[lastPlace - i])) {
+                System.out.println("Checking " + myArray[i] + " with " + myArray[lastPlace]);
+                pal = true;
+            } else {
+                return false;
+            }
+
+        }
+```
+
