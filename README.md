@@ -17,6 +17,8 @@ Steps to solving:
 *   Check if square nunmber is even or odd
 *   Add to total and print
 
+* * *
+
 ### Problem One
 
 Sum all multiples of 3 and 5 below 1000
@@ -30,6 +32,8 @@ Steps to solving:
 *   Outputs the new multiple that was found and the new total
 *   Returns final total
 
+* * *
+
 ### Problem Two
 
 Find the sum of Fibonacci sequence numbers until 4,000,000
@@ -42,6 +46,8 @@ Steps to solving:
 *   Use a for loop to find sqare numbers from 1 to 520,000
 *   Check if square nunmber is even or odd
 *   Add to total and print
+
+* * *
 
 ### Problem Four
 
@@ -68,6 +74,8 @@ for (int i = 0; i < myArray.length; i++) {
         }
 ```
 
+* * *
+
 
 ### Problem Five
 
@@ -77,8 +85,9 @@ Find the smallest number that divides perectly with numbers 1 to 20
 
 Steps to solving:
 
-*   Init 2 for loops to multiple every combination of numbers
-*   Check each one in another method returning boolean
-*   Other method converts to char array and checks for palindrome
-*   This is done by searching array index from beginning and end coming inwards
+*   Init a for loop to go up to a large number
+*   If not divisable by the first 5 prime numbers skip it
+*   Process remaining numbers in a for loop to check for divisiability
 
+
+* * *
