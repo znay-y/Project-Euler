@@ -68,3 +68,17 @@ for (int i = 0; i < myArray.length; i++) {
         }
 ```
 
+
+### Problem Five
+
+Find the smallest number that divides perectly with numbers 1 to 20
+
+* * *
+
+Steps to solving:
+
+*   Init 2 for loops to multiple every combination of numbers
+*   Check each one in another method returning boolean
+*   Other method converts to char array and checks for palindrome
+*   This is done by searching array index from beginning and end coming inwards
+
