@@ -91,3 +91,19 @@ Steps to solving:
 
 
 * * *
+
+### Problem Six
+
+Find the difference between the sum of first 100 numbers squared and the squared version of first 100 numbers 
+
+* * *
+
+Steps to solving:
+
+*   Init a for loop to total first 100 squared numbers
+*   Init another for the first 100 totaled then squared
+*   ~~Both numbers could have been totalesd in the same for loop~~
+*   Subtract them and output the answer
+
+
+* * *
