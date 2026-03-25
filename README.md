@@ -109,3 +109,24 @@ Steps to solving:
 
 
 * * *
+
+### Problem Seven
+
+Find the 10001st prime number 
+
+* * *
+
+Steps to solving:
+
+*   Init a for loop to look make numbers 1 up to 150,000 (an arbitrary large number)
+*   Use another for look to check every number before it to make sure it's prime
+*   If it is true the number is added to the array 
+*   The array is printed
+
+
+* * *
+
+Known Issues:
+
+*   10001st prime is showns as 9995th 
+*   2 is not recognised as a prime
