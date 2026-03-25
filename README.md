@@ -1,7 +1,9 @@
 Project-Euler
 =============
 
-Java Solutions for project Euler
+Project Euler is a series of mathematical and computational challenges. Below are my explanations for the Java solutions for Project Euler. In the future there will be two more versions of this repo. One where the solutions are optimised and abstracted and the other where they are solved in an OOP paradigm
+
+Explainations for Project Euler solutions
 --------------------------------
 
 ### Problem Zero
